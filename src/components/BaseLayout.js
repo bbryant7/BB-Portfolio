@@ -5,10 +5,16 @@ export default class BaseLayout extends Component {
   render(){
     return (
       <div>
-        <nav className="row navbar navbar-inverse">
+        <nav className="navbar">
+
+                <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" exact to='/'> BB</NavLink>
 
 
-                <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" exact to='/'> <span className="splash">home</span></NavLink>
+                  <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" to='/portfolio'> Portfolio</NavLink>
+                  <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" to='/about'> About</NavLink>
+                  <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" to='/contact'> Contact</NavLink>
+                  <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" to='/resume'> Resume</NavLink>
+              
 
         </nav>
         {this.props.children}
