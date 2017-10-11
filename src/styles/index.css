@@ -13,6 +13,7 @@ body {
   background: -moz-linear-gradient(right,#191954, #0FC4AB); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #191954, #0FC4AB);
   height: 700px;
+  color:white;
 }
 .navbar{
   display: flex;
@@ -45,7 +46,7 @@ margin-top: 0;
 h1 {
 text-align: center;
 font-size: 60px;
-color: white;
+/*color: white;*/
 }
 
 .portfolio {
@@ -68,6 +69,14 @@ display: flex;
 
 .portfolio-image:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-picture{
+  border-radius: 100%;
+}
+.about-details {
+  border-radius: 100%;
+  vertical-align: center;
 }
 
 footer {

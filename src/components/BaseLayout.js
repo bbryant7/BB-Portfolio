@@ -19,7 +19,7 @@ export default class BaseLayout extends Component {
 
 
         </nav>
-  
+
         {this.props.children}
         <footer>
         <div className = "contact">
