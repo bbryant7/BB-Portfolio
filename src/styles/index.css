@@ -14,6 +14,10 @@ body {
   background: linear-gradient(to right, #191954, #0FC4AB);
   height: 700px;
   color:white;
+  padding-top: 250px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 50px;
 }
 .navbar{
   display: flex;
@@ -39,16 +43,6 @@ body {
   color: pink;
 }
 
-.top {
-padding-top: 250px;
-margin-top: 0;
-}
-h1 {
-text-align: center;
-font-size: 60px;
-/*color: white;*/
-}
-
 .portfolio {
   display: flex;
   justify-content: space-between;
@@ -71,12 +65,35 @@ display: flex;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.about-page{
+  display:flex;
+  flex-basis: 100%;
+  margin: 5%;
+
+  text-align: left;
+
+}
+.about-page h1{
+
+  font-size: 50px;
+}
+.about-page h2{
+  font-size: 40px;
+}
+.about-page p{
+  font-size: 28px;
+}
+.unicorn {
+  color: #02B3A2;
+}
+
 .about-picture{
   border-radius: 100%;
+  flex-basis: 33%;
+  margin-right: 5%;
 }
 .about-details {
-  border-radius: 100%;
-  vertical-align: center;
+  flex-basis: 66%
 }
 
 footer {

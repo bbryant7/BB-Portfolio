@@ -14,14 +14,14 @@ class App extends Component {
       <div className="app">
 
         <div className="splash">
-          <h1 className="top">
+          <h1 className="Page-title">
           Hey y'all, <span>I'm Bailey Bryant.</span>
           </h1>
           <h1> Im a Web Developer. </h1>
         </div>
         <Portfolio/>
         <About/>
-        
+
       </div>
 
 
