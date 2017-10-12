@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
 .splash {
@@ -84,7 +85,7 @@ display: flex;
   font-size: 28px;
 }
 .unicorn {
-  color: #02B3A2;
+  color: #009A94;
 }
 
 .about-picture{
@@ -94,6 +95,34 @@ display: flex;
 }
 .about-details {
   flex-basis: 66%
+}
+
+.resume {
+  margin: 5% 10% 5% 10%;
+
+}
+.resume button {
+  padding: 1em;
+  border-radius: 5%;
+  background-color: #009A94;
+}
+button a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+.resume span {
+  font-weight:bold;
+}
+
+.resume-header{
+  text-align: center;
+  border-bottom: 1px solid blue
+}
+.sub-header{
+  display:flex;
+  justify-content: space-between;
+
 }
 
 footer {
