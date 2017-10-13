@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import { Link } from "react-router-dom";
-import about from "../images/about.jpg"
+import about from "../images/bbryant.jpg"
 
 class About extends Component {
   render() {

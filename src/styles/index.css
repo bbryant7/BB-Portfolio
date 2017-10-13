@@ -84,6 +84,7 @@ body {
 
 .about-picture{
   border-radius: 100%;
+  max-width: 100%;
   margin-right: 5%;
 }
 
@@ -160,13 +161,14 @@ footer {
 
   .about-picture{
     border-radius: 100%;
-    flex-basis: 25%;
+    width: 30%;
+    height: 30%;
     margin-right: 5%;
   }
 
-  .about-details {
+  /*.about-details {
     flex-basis: 66%
-  }
+  }*/
 
   .resume {
     margin: 5% 10% 5% 10%;
