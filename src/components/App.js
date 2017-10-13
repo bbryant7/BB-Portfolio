@@ -14,7 +14,7 @@ class App extends Component {
       <div className="app">
 
         <div className="splash">
-          <h1 className="Page-title">
+          <h1 className="top">
           Hey y’all, <span>I’m Bailey Bryant.</span>
           </h1>
           <h1> I’m a Web Developer. </h1>

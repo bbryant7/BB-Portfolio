@@ -9,23 +9,22 @@ class Portfolio extends Component {
 
     return (
       <div className = "portfolio-page">
-      <h1>  My Projects </h1>
       <div className="portfolio">
       <div className="project">
       <h3> Online Furniture </h3>
-      <img src={Ecom} height= "350px" width="400px" className="portfolio-image"/>
+      <img src={Ecom} className="portfolio-image"/>
       <p> this project... view project live <a href="x">here</a></p>
       <p> Technology used: HTML5, JavaScript, React, Redux, CSS</p>
       </div>
-      <div className="project" width="400px">
+      <div className="project">
       <h3> Code Snippets</h3>
-      <img src={MusicReview} height= "350px" width="400px" className="portfolio-image"/>
+      <img src={MusicReview}  className="portfolio-image"/>
       <p>this project... view project live <a href="x">here</a></p>
       <p> Technology used: JavaScript, MongoDB, Mongoose, Express.js, Mustache </p>
       </div>
-      <div className="project" width="400px">
+      <div className="project">
       <h3> Music Share </h3>
-      <img src={MusicReview} height= "350px" width="400px" className="portfolio-image"/>
+      <img src={MusicReview} className="portfolio-image"/>
       <p>  this project... view project live <a href="x">here</a></p>
       <p> Technology used: HTML5, JavaScript, React, Bootstrap, CSS  </p>
       </div>

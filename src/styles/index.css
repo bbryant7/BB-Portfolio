@@ -3,22 +3,147 @@ body {
   padding: 0;
   font-family: sans-serif;
   line-height: 1.4;
+  background-color: #F0F0F2;
+
 }
 
 .splash {
   background-size: cover;
   background-position: center;
   background: #191954;
-  background: -webkit-linear-gradient(left, #191954 , #0FC4AB); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #191954, #0FC4AB); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right,#191954, #0FC4AB); /* For Firefox 3.6 to 15 */
+  background: -webkit-linear-gradient(left, #191954 , #0FC4AB);
+  background: -o-linear-gradient(right, #191954, #0FC4AB);
+  background: -moz-linear-gradient(right,#191954, #0FC4AB);
   background: linear-gradient(to right, #191954, #0FC4AB);
-  height: 700px;
   color:white;
-  padding-top: 250px;
   margin-top: 0;
   text-align: center;
-  font-size: 50px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.splash h1 {
+  margin: 5%;
+}
+
+.top {
+  margin-top: 0;
+}
+.navbar{
+  display: flex;
+  background-color: black;
+}
+.logo {
+  text-decoration: none;
+  padding: .5em;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: .5em;
+  color: white;
+  justify-content: flex-end;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #0D6F7F;
+}
+
+.portfolio {
+  margin: 5%;
+  /*display:flex;*/
+  /*flex-basis: 100%;*/
+  color: black;
+}
+
+.project{
+  width: 250px;
+}
+
+.portfolio-image{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width: 250px;
+}
+
+.about-page{
+  margin: 5%;
+  text-align: left;
+}
+
+.unicorn {
+  color: #0D6F7F;
+}
+
+.about-picture{
+  border-radius: 100%;
+  margin-right: 5%;
+}
+
+.resume {
+  margin: 4%;
+
+}
+.resume button {
+  padding: 1em;
+  border-radius: 5%;
+  background-color: #0D6F7F;
+}
+
+.resume h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+.resume span {
+  font-weight:bold;
+}
+
+.resume-header{
+  text-align: center;
+  border-bottom: 1px solid #0D6F7F;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 2em;
+}
+
+
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+  background-color: #F0F0F2;
+
+}
+
+/*.splash {
+  background-size: cover;
+  background-position: center;
+  background: #191954;
+  background: -webkit-linear-gradient(left, #191954 , #0FC4AB); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(right, #191954, #0FC4AB); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(right,#191954, #0FC4AB); /* For Firefox 3.6 to 15 */
+/*  background: linear-gradient(to right, #191954, #0FC4AB);
+  color:white;
+  margin-top: 0;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.top {
+  margin-top: 0;
 }
 .navbar{
   display: flex;
@@ -41,7 +166,7 @@ body {
 
 .nav-link:hover {
   text-decoration: underline;
-  color: pink;
+  color: #0D6F7F;
 }
 
 .portfolio {
@@ -85,7 +210,7 @@ display: flex;
   font-size: 28px;
 }
 .unicorn {
-  color: #009A94;
+  color: #0D6F7F;
 }
 
 .about-picture{
@@ -104,7 +229,7 @@ display: flex;
 .resume button {
   padding: 1em;
   border-radius: 5%;
-  background-color: #009A94;
+  background-color: #0D6F7F;
 }
 button a {
   text-decoration: none;
@@ -117,7 +242,7 @@ button a {
 
 .resume-header{
   text-align: center;
-  border-bottom: 1px solid blue
+  border-bottom: 1px solid #0D6F7F;
 }
 .sub-header{
   display:flex;
@@ -130,4 +255,4 @@ footer {
   background-color: black;
   text-align: center;
   padding: 2em;
-}
+}*/
