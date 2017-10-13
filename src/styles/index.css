@@ -116,143 +116,139 @@ footer {
   padding: 2em;
 }
 
+@media screen and ( min-width:600px ){
 
-/*body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  line-height: 1.4;
-  background-color: #F0F0F2;
+  .splash {
+    font-size: 2em;
+  }
 
-}
+  .logo {
+    padding: 20px;
+  }
 
-/*.splash {
-  background-size: cover;
-  background-position: center;
-  background: #191954;
-  background: -webkit-linear-gradient(left, #191954 , #0FC4AB); /* For Safari 5.1 to 6.0 */
-  /*background: -o-linear-gradient(right, #191954, #0FC4AB); /* For Opera 11.1 to 12.0 */
-  /*background: -moz-linear-gradient(right,#191954, #0FC4AB); /* For Firefox 3.6 to 15 */
-/*  background: linear-gradient(to right, #191954, #0FC4AB);
-  color:white;
-  margin-top: 0;
-  text-align: center;
-  font-size: 3em;
-  padding-top: 4em;
-  padding-bottom: 4em;
-}
+  .nav-link {
+    font-size: 24px;
 
-.top {
-  margin-top: 0;
-}
-.navbar{
-  display: flex;
-  background-color: black;
-}
-.logo {
-  text-decoration: none;
-  font-size: 24px;
-  padding: 20px;
-  color: white;
-}
+  }
 
-.nav-link {
-  text-decoration: none;
-  font-size: 24px;
-  padding: 20px;
-  color: white;
-  justify-content: flex-end;
-}
+  .project {
+    width: 550px;
+  }
 
-.nav-link:hover {
-  text-decoration: underline;
-  color: #0D6F7F;
-}
+  .portfolio-image {
+    width: 550px;
+  }
 
-.portfolio {
-  display: flex;
-  justify-content: space-between;
-  margin: 5%;
-  color: black;
-}
-.project {
-  width: 400px;
-}
-.portfolio-image {
-justify-content: space-between;
+  .about-page{
+    display:flex;
+    flex-basis: 100%;
+  }
 
-}
+  .unicorn {
+    color: #0D6F7F;
+  }
 
-.section {
-display: flex;
-}
+  .about-picture{
+    border-radius: 100%;
+    flex-basis: 25%;
+    margin-right: 5%;
+  }
 
-.portfolio-image:hover {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  .about-details {
+    flex-basis: 66%
+  }
 
-.about-page{
-  display:flex;
-  flex-basis: 100%;
-  margin: 5%;
+  .resume {
+    margin: 5% 10% 5% 10%;
 
-  text-align: left;
+  }
 
-}
-.about-page h1{
+  .sub-header{
+    display:flex;
+    justify-content: space-between;
 
-  font-size: 50px;
-}
-.about-page h2{
-  font-size: 40px;
-}
-.about-page p{
-  font-size: 28px;
-}
-.unicorn {
-  color: #0D6F7F;
-}
+  }
 
-.about-picture{
-  border-radius: 100%;
-  flex-basis: 33%;
-  margin-right: 5%;
-}
-.about-details {
-  flex-basis: 66%
-}
+  }/* 600px*/
 
-.resume {
-  margin: 5% 10% 5% 10%;
+  @media screen and ( min-width:1100px ){
 
-}
-.resume button {
-  padding: 1em;
-  border-radius: 5%;
-  background-color: #0D6F7F;
-}
-button a {
-  text-decoration: none;
-  font-size: 2em;
-  color: white;
-}
-.resume span {
-  font-weight:bold;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      line-height: 1.4;
+      background-color: #F0F0F2;
 
-.resume-header{
-  text-align: center;
-  border-bottom: 1px solid #0D6F7F;
-}
-.sub-header{
-  display:flex;
-  justify-content: space-between;
+    }
 
-}
+    .splash {
+      font-size: 3em;
+    }
 
-footer {
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 2em;
-}*/
+    .logo {
+      padding: 20px;
+    }
+
+    .nav-link {
+      font-size: 24px;
+
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+      color: #0D6F7F;
+    }
+
+    .portfolio {
+      display: flex;
+      justify-content: space-between;
+    }
+    .project {
+      width: 400px;
+    }
+
+    .portfolio-image {
+    justify-content: space-between;
+    width: 400px;
+
+    }
+
+    .section {
+    display: flex;
+    }
+
+    .about-page{
+      display:flex;
+      flex-basis: 100%;
+      margin: 5%;
+
+      text-align: left;
+
+    }
+
+    .unicorn {
+      color: #0D6F7F;
+    }
+
+    .about-picture{
+      border-radius: 100%;
+      flex-basis: 25%;
+      margin-right: 5%;
+    }
+    .about-details {
+      flex-basis: 66%
+    }
+
+    .resume {
+      margin: 5% 10% 5% 10%;
+
+    }
+
+    .sub-header{
+      display:flex;
+      justify-content: space-between;
+
+    }
+
+    }/* 1100px*/
