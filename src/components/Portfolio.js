@@ -14,18 +14,30 @@ class Portfolio extends Component {
           <img src={Ecom} className="portfolio-image"/>
           <p> this project... view project live <a href="x">here</a></p>
           <p> Technology used: HTML5, JavaScript, React, Redux, CSS</p>
+          <div className="project-links">
+            <a href="x"> Live Link </a>
+            <a href="x"> Code</a>
+          </div>
         </div>
         <div className="project">
           <h3> Code Snippets</h3>
           <img src={MusicReview}  className="portfolio-image"/>
-          <p>this project... view project live <a href="x">here</a></p>
+          <p>An app to help developers organize snippets of code. </p>
           <p> Technology used: JavaScript, MongoDB, Mongoose, Express.js, Mustache </p>
+          <div className="project-links">
+            <a href="x"> Live Link </a>
+            <a href="x"> Code</a>
+          </div>
         </div>
         <div className="project">
           <h3> Music Share </h3>
           <img src={MusicReview} className="portfolio-image"/>
           <p>  this project... view project live <a href="x">here</a></p>
           <p> Technology used: HTML5, JavaScript, React, Bootstrap, CSS  </p>
+          <div className="project-links">
+            <a href="x"> Live Link </a>
+            <a href="x"> Code</a>
+          </div>
         </div>
       </div>
     );

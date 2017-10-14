@@ -9,7 +9,7 @@ class Resume extends Component {
 
     return (
       <div className ="resume">
-        <div >
+        <div className="button-section" >
           <button><a href={ResumeDoc}>Download </a></button>
         </div>
         <div className="Resume-text">

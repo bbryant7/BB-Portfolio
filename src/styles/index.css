@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  color: #424242;
+  font-family: 'Francois One', sans-serif;
   line-height: 1.4;
   background-color: #F0F0F2;
 
@@ -50,10 +51,10 @@ body {
   text-decoration: underline;
   color: #0D6F7F;
 }
-
 .portfolio {
   margin: 5%;
-  color: black;
+  margin-top: 10%;
+
 
 }
 
@@ -70,9 +71,25 @@ body {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    width: 90%;
 }
+.project-links{
+  text-align: center;
+}
+
+.project-links a{
+  text-decoration: none;
+  padding: .5em;
+  color: #0D6F7F;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.project-links a:hover{
+  color: #191954;
+}
 
 .about-page{
   margin: 5%;
+  margin-top: 10%;
   display:flex;
   text-align: left;
   flex-direction: column;
@@ -90,12 +107,20 @@ body {
 
 .resume {
   margin: 4%;
-
+}
+.button-section{
+  display:flex;
+  justify-content: flex-end;
+  margin-bottom: 5%
 }
 .resume button {
   padding: 1em;
   border-radius: 5%;
   background-color: #0D6F7F;
+}
+
+.resume h3 {
+  color:#0D6F7F;
 }
 
 .resume h4 {
@@ -106,6 +131,8 @@ button a {
   text-decoration: none;
   font-size: 2em;
   color: white;
+  text-align: center;
+
 }
 .resume span {
   font-weight:bold;
@@ -147,6 +174,10 @@ footer {
 
   .portfolio-image {
     width: 100%;
+  }
+
+  .portfolio h3 {
+    font-size: 2em;
   }
 
   .about-page{
@@ -207,7 +238,7 @@ footer {
       width: 30%;
     }
 
-    .about-page{
+    .About{
       display:flex;
       flex-basis: 100%;
       margin: 5%;
