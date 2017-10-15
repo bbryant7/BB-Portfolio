@@ -15,9 +15,9 @@ ReactDOM.render(
      <BaseLayout>
         <Switch>
           <Route exact path="/" component={App}/>
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/portfolio/#portfolio" component={Portfolio}/>
+          <Route exact path="/about/#about-page" component={About}/>
+          <Route exact path="/contact/#contact" component={Contact}/>
           <Route exact path="/resume" component={Resume}/>
         </Switch>
       </BaseLayout>

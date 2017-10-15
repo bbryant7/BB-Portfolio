@@ -8,7 +8,7 @@ class Portfolio extends Component {
 
 
     return (
-      <div className="portfolio">
+      <div id="portfolio">
         <div className="project">
           <h3> Online Furniture </h3>
           <img src={Ecom} className="portfolio-image"/>

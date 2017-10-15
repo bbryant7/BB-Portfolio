@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #424242;
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.4;
   background-color: #F0F0F2;
 
@@ -51,14 +51,14 @@ body {
   text-decoration: underline;
   color: #0D6F7F;
 }
-.portfolio {
+#portfolio {
   margin: 5%;
   margin-top: 10%;
 
 
 }
 
-.portfolio h3{
+#portfolio h3{
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ body {
   color: #191954;
 }
 
-.about-page{
+#about-page{
   margin: 5%;
   margin-top: 10%;
   display:flex;
@@ -183,15 +183,15 @@ footer {
     width: 100%;
   }
 
-  .portfolio h3{
+  #portfolio h3{
     font-size: 2em;
   }
 
-  .portfolio a {
+  #portfolio a {
     font-size: 1.5em;
   }
 
-  .about-page{
+  #about-page{
     display:flex;
     flex-basis: 100%;
     flex-direction: row;
@@ -234,20 +234,8 @@ footer {
 /*-------------------------------------------*/
   @media screen and ( min-width:1100px ){
 
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      line-height: 1.4;
-      background-color: #F0F0F2;
 
-    }
-
-    .splash {
-      font-size: 2em;
-    }
-
-    .portfolio {
+    #portfolio {
       display: flex;
       justify-content: space-between;
     }
