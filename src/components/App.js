@@ -3,7 +3,6 @@ import "../styles/App.css";
 import { Link } from "react-router-dom";
 import MusicReview from "../images/music-review.png";
 import Ecom from "../images/ecom.png";
-import about from "../images/about.jpg"
 import About from "../components/About.js"
 import Portfolio from "../components/Portfolio.js"
 
