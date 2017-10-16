@@ -58,6 +58,10 @@ height: 75px;
   text-decoration: underline;
   color: #0D6F7F;
 }
+
+.logo:hover {
+  border-color: #0D6F7F;
+}
 #portfolio {
   margin: 5%;
   margin-top: 10%;

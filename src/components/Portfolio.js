@@ -13,7 +13,7 @@ class Portfolio extends Component {
         <div className="project">
           <h3> Online Furniture </h3>
           <img src={Ecom} className="portfolio-image"/>
-          <p> <span className="bold"> The Project: </span>An online shopping resource for home goods.</p>
+          <p> An online shopping resource for home goods.</p>
           <p> <span className="bold"> Technology used:</span> HTML5, JavaScript, React, React-Router-Dom, CSS</p>
           <div className="project-links">
             <a href="x"> Live Link </a>
