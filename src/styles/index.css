@@ -189,6 +189,7 @@ footer {
 
   .portfolio-image {
     width: 100%;
+    align-content: center;
   }
 
   #portfolio h3{
