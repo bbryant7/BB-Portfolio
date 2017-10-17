@@ -70,7 +70,7 @@ height: 75px;
 
 #portfolio h3{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 17%;
   font-size: 1.5em;
   margin-bottom: .2em;
 }
@@ -198,6 +198,10 @@ footer {
 
   }
 
+  #portfolio{
+    margin-top: 15%;
+  }
+
 
   #portfolio h3{
     font-size: 2em;
@@ -208,6 +212,7 @@ footer {
   }
 
   #about-page{
+    margin-top: 15%;
     display:flex;
     flex-basis: 100%;
     flex-direction: row;
