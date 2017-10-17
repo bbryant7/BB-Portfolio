@@ -36,26 +36,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .logo {
 border: 1px solid white;
-margin: 1%;
+margin-top: 5px;
 width: 75px;
 height: 75px;
 }
 
 .nav-link {
   text-decoration: none;
-  padding: .5em;
+  margin: 1.5em;
   color: white;
-
 }
 
-.nav-link a{
-  padding-top: 50%;
+.navbar a{
+  padding: 0;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #0D6F7F;
   color: #0D6F7F;
 }
 
@@ -64,13 +64,15 @@ height: 75px;
 }
 #portfolio {
   margin: 5%;
-  margin-top: 10%;
-
+  margin-top: 20%;
 
 }
 
 #portfolio h3{
   text-align: center;
+  margin-top: 20%;
+  font-size: 1.5em;
+  margin-bottom: .2em;
 }
 
 .project{
@@ -81,6 +83,16 @@ height: 75px;
 .portfolio-image{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    max-width: 100%;
+}
+
+.project-info {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+}
+
+.technology {
+  font-size: 1.1em;
 }
 
 .bold {
@@ -99,12 +111,12 @@ height: 75px;
 }
 
 .project-links a:hover{
-  color: #191954;
+  color: #069794;
 }
 
 #about-page{
   margin: 5%;
-  margin-top: 10%;
+  margin-top: 20%;
   display:flex;
   text-align: left;
   flex-direction: column;
@@ -186,14 +198,6 @@ footer {
 
   }
 
-  .project {
-    width: 90%;
-  }
-
-  .portfolio-image {
-    width: 100%;
-    align-content: center;
-  }
 
   #portfolio h3{
     font-size: 2em;
