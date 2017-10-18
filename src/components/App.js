@@ -14,9 +14,9 @@ class App extends Component {
 
         <div className="splash">
           <h1 className="top">
-          Hey y’all, <span>I’m Bailey Bryant.</span>
+          Hey y’all, <span>I’m Bailey Bryant</span>
           </h1>
-          <h1> I’m a Web Developer. </h1>
+          <h1> I’m a Web Developer </h1>
         </div>
         <Portfolio/>
         <About/>

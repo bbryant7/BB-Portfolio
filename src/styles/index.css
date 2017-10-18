@@ -50,10 +50,6 @@ height: 75px;
   margin: 1%;
 }
 
-/*.navbar a{
-  padding: 0;
-}*/
-
 .nav-link:hover {
   border-bottom: 1px solid #0D6F7F;
   color: #0D6F7F;
@@ -62,10 +58,10 @@ height: 75px;
 .logo:hover {
   border-color: #0D6F7F;
 }
+
 #portfolio {
   margin: 5%;
   margin-top: 20%;
-
 }
 
 #portfolio h3{
@@ -120,10 +116,6 @@ height: 75px;
   display:flex;
   text-align: left;
   flex-direction: column;
-}
-
-.unicorn {
-  color: #0D6F7F;
 }
 
 .about-picture{
