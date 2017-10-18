@@ -186,8 +186,9 @@ footer {
 
   .nav-link {
     font-size: 24px;
-    padding: 20px;
-
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid #0D6F7F;
   }
 
   #portfolio{
@@ -208,10 +209,6 @@ footer {
     display:flex;
     flex-basis: 100%;
     flex-direction: row;
-  }
-
-  .unicorn {
-    color: #0D6F7F;
   }
 
   .about-picture{
@@ -262,10 +259,6 @@ footer {
       flex-basis: 100%;
       margin: 5%;
       text-align: left;
-    }
-
-    .unicorn {
-      color: #0D6F7F;
     }
 
     .about-picture{
