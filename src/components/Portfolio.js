@@ -25,7 +25,7 @@ class Portfolio extends Component {
           <h3> Code Snippets</h3>
           <p className="project-info">An app to help developers organize snippets of code. </p>
           <img src={MusicReview}  className="portfolio-image"/>
-          <p className="technology"> <span className="bold"> Technology used:</span> JavaScript, MongoDB, Mongoose, Express.js, Mustache, meow </p>
+          <p className="technology"> <span className="bold"> Technology used:</span> JavaScript, MongoDB, Mongoose, Express.js, Mustache</p>
           <div className="project-links">
             <a href="https://github.com/bbryant7/Code-Snippet-App"> Code</a>
           </div>
