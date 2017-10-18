@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 import { Link } from "react-router-dom";
 import MusicReview from "../images/music-review.png";
+import Snippets from "../images/code-snippets.png";
 import Ecom from "../images/ecom.png";
 class Portfolio extends Component {
   render() {
@@ -24,7 +25,7 @@ class Portfolio extends Component {
         <div className="project">
           <h3> Code Snippets</h3>
           <p className="project-info">An app to help developers organize snippets of code. </p>
-          <img src={MusicReview}  className="portfolio-image"/>
+          <img src={Snippets}  className="portfolio-image"/>
           <p className="technology"> <span className="bold"> Technology used:</span> JavaScript, MongoDB, Mongoose, Express.js, Mustache</p>
           <div className="project-links">
             <a href="https://github.com/bbryant7/Code-Snippet-App"> Code</a>
