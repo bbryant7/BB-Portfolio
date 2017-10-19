@@ -32,7 +32,7 @@ body {
 }
 .navbar{
   display: flex;
-  background-color: black;
+  background-color: #232323;
   justify-content: center;
   align-items: center;
 }
@@ -61,12 +61,12 @@ height: 75px;
 
 #portfolio {
   margin: 5%;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 #portfolio h3{
   text-align: center;
-  margin-top: 17%;
+  margin-top: 15%;
   font-size: 1.5em;
   margin-bottom: .2em;
 }
@@ -112,7 +112,7 @@ height: 75px;
 
 #about-page{
   margin: 5%;
-  margin-top: 20%;
+  margin-top: 25%;
   display:flex;
   text-align: left;
   flex-direction: column;
@@ -166,7 +166,7 @@ height: 75px;
 
 footer {
   color: white;
-  background-color: black;
+  background-color: #232323;
   text-align: center;
   padding: 2em;
 }
@@ -195,8 +195,8 @@ footer {
     margin-top: 15%;
   }
 
-
   #portfolio h3{
+    margin-top: 12%;
     font-size: 2em;
   }
 
@@ -248,10 +248,20 @@ footer {
     #portfolio {
       display: flex;
       justify-content: space-between;
+        margin-top: 12%;
+
+    }
+
+    #portfolio h3{
+      font-size: 2em;
     }
 
     .project{
       width: 30%;
+    }
+
+    #about-page{
+      margin-top: 10%;
     }
 
     .About{
