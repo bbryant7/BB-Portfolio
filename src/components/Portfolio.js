@@ -38,7 +38,7 @@ class Portfolio extends Component {
           <p className="technology"> <span className="bold"> Technology used:</span> HTML5, JavaScript, React, Bootstrap, CSS  </p>
           <div className="project-links">
             <a href="https://bbryant7.github.io/Music-Review/"> Live Link </a>
-            <a href="https://github.com/bbryant7/Music-Review"> Code</a>
+            <a href="https://Music-Review.surge.sh"> Code</a>
           </div>
         </div>
       </div>
