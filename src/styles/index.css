@@ -248,12 +248,13 @@ footer {
     #portfolio {
       display: flex;
       justify-content: space-between;
-        margin-top: 12%;
+      margin-top: 12%;
 
     }
 
     #portfolio h3{
       font-size: 2em;
+      margin-top: 0;
     }
 
     .project{
@@ -261,14 +262,18 @@ footer {
     }
 
     #about-page{
-      margin-top: 10%;
+      margin-top: 12%;
     }
 
-    .About{
+    /*.About{
       display:flex;
       flex-basis: 100%;
       margin: 5%;
       text-align: left;
+    }*/
+
+    #about-page h1{
+      margin-top: 0;
     }
 
     .about-picture{
@@ -291,4 +296,4 @@ footer {
 
     }
 
-    }/* 1100px*/
+    }/* 900px*/
