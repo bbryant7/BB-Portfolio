@@ -17,7 +17,7 @@ class Portfolio extends Component {
           <img src={Ecom} className="portfolio-image"/>
           <p className="technology"> <span className="bold"> Technology used:</span> HTML5, JavaScript, React, React-Router-Dom, CSS</p>
           <div className="project-links">
-            <a href="x"> Live Link </a>
+            <a href="https://OnlineFurnitureStore.surge.sh"> Live Link </a>
             <a href="https://github.com/bbryant7/e-com-site"> Code</a>
           </div>
 
