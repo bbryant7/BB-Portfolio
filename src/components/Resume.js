@@ -16,7 +16,7 @@ class Resume extends Component {
         <div className="resume-header">
           <h1> Bailey Bryant </h1>
           <h2> Front End Web Developer</h2>
-          <p>ATX | 512.507.4810 | bailey.bryant10[@]gmail.com | <a href="https://www.linkedin.com/in/bailey-bryant-44699582/" >LinkedIn</a> | <a href="https://github.com/bbryant7">GitHub </a></p>
+          <p>ATX | 512.507.4810 | bailey.bryant10[@]gmail.com <a href="https://www.linkedin.com/in/bailey-bryant-44699582/" >LinkedIn</a> | <a href="https://github.com/bbryant7">GitHub </a></p>
           </div>
           <h3> SKILLS </h3>
           <p><span>Technical Skills: </span>JavaScript, HTML, CSS, React, Bootstrap, Node.js, Git, GitHub</p>
