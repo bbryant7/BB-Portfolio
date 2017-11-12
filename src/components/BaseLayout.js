@@ -23,7 +23,7 @@ export default class BaseLayout extends Component {
         <footer>
           <div id="contact">
             <p> Bailey Bryant </p>
-            <p> bailey.bryant10@gmail.com </p>
+            <p> bailey.bryant10[@]gmail.com </p>
           </div>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/bailey-bryant-44699582/"><img src={LinkedIn} alt="LinkedIn Icon" height="50px"/> </a>
